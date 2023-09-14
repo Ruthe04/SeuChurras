@@ -1,0 +1,88 @@
+svg{
+    width: 550px;
+    margin-left: 100px;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    column-gap: 4rem;
+    font-family:'Courier New', Courier, monospace
+}
+
+.info{
+    background-color: #b7e1f5;
+    width: 40rem;
+    height: 70vh;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2rem;
+    box-shadow: rgb(67, 97, 138) -2px 5px 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(67, 97, 138);
+}
+
+span{
+    text-align: center;
+    color: rgb(67, 97, 138);
+    font-size: large;
+}
+
+input{
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 2rem;
+    margin: auto;
+    box-shadow: rgb(148, 188, 243) -2px 5px 10px;
+}
+
+input:hover{
+    box-shadow: rgb(67, 97, 138) -2px 5px 10px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button{
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 2rem;
+    margin: auto;
+    background-color: rgb(67, 97, 138);
+    color: white;
+    font-size: larger;
+    box-shadow: rgb(67, 97, 138) -2px 3px 10px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 11px;
+}
+
+#result{
+    text-align: center;
+    color: rgb(37, 51, 71);
+    font-size: medium;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+
+
